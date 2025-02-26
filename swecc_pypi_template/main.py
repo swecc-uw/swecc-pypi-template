@@ -1,4 +1,4 @@
-def hello_world(name="world"):
+def hello_world(name:str="world") -> str:
     return f'hello, {name}'
 
 if __name__ == "__main__":
